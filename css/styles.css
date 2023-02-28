@@ -1,0 +1,69 @@
+/*************** GENERAL STYLES ******************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ html {
+    width: 100%;
+    font-size: 16px;
+ }
+
+ body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+ }
+
+ header, footer, main, section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+ }
+
+ .container {
+    width: 92%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+ }
+
+ /******************* HEADER *********************/
+ header .container {
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+ }
+
+ /****************** HERO ************************/
+ .hero img {
+    width: 87.2%;
+ }
+
+ /****************** COURSES ********************/
+
+ .popular, .course {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+ }
+
+ .course h3, .course p {
+    width: 100%;
+ }
+
+ /****************** FOOTER *******************/
+
+ footer .container {
+    justify-content: space-between;
+ }
