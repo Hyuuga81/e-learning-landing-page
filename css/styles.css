@@ -192,3 +192,55 @@
     text-decoration: none;
     border-radius: 25px;
  }
+
+
+ /********************** TABLET STYLES *********************/
+
+ @media (min-width: 768px) {
+
+   /********************** HEADER ************************/
+
+   header .container {
+      margin-top: 24px;
+   }
+
+    /********************** HERO ***********************/
+
+    .hero {
+        width: 92%;
+        justify-content: space-between;
+    }
+
+    .hero .container {
+        width: 52%;
+        margin-top: 99px;
+    }
+
+    .hero img {
+        position: absolute;
+        width: 83%;
+        top: -92px;
+        right: -297px;
+    }
+
+    /******************* COURSES ***********************/
+
+    .courses {
+        width: 100%;
+        margin-top: 186px;
+    }
+
+    .popular, .course {
+        width: 44%;
+    }
+
+    .popular .container {
+        width: 92%;
+        padding: 56px 0 139px 0;
+    }
+
+    .popular h2 {
+        width: 92%;
+    }
+
+ }
