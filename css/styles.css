@@ -58,6 +58,10 @@
 
  /****************** HERO ************************/
 
+ .hero {
+   position: relative;
+ }
+
  .hero .container {
     justify-content: flex-start;
  }
@@ -213,6 +217,7 @@
     /********************** HERO ***********************/
 
     .hero {
+        position: relative;
         width: 92%;
         justify-content: space-between;
     }
@@ -268,6 +273,7 @@
       /***************** HERO ******************/
 
       .hero {
+         position: relative;
          width: 77%;
       }
 
@@ -285,6 +291,13 @@
          font-size: 1.125em;
          line-height: 28px;
          margin-bottom: 40px;
+      }
+
+      .hero img {
+         width: 69%;
+         position: absolute;
+         top: -146px;
+         right: -336px;
       }
 
      } 

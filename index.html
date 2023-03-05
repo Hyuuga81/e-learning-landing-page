@@ -30,7 +30,13 @@
           knowledge you need to live the life you want.</p>
         <a href="">Get Started</a>
       </div>
-      <img src="assets/image-hero-mobile.png" alt="hero-image">
+      <picture>
+        <source media="(min-width: 1200px)" srcset="assets/image-hero-desktop.png">
+        <source media="(min-width: 768px)" srcset="assets/image-hero-tablet.png">
+        <img src="assets/image-hero-mobile.png" alt="hero-image">
+    </picture>
+    
+      <!-- <img src="assets/image-hero-mobile.png" alt="hero-image"> -->
     </section>
 
     <section class="courses">
